@@ -1,0 +1,11 @@
+.homeImage{
+    max-height: 300px;
+    padding-bottom: 50px;
+}
+
+.centered {
+    height: 80vh; /* Magic here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

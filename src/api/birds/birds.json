@@ -1,0 +1,20 @@
+[
+  {
+    "birdId": 1,
+    "name": "Great-Tailed Grackle",     
+    "description": "Big black bird with iridescent purple sheen",
+     "url": "./assets/images/great-tailed-grackle.png"
+  },
+  {
+    "birdId": 2,
+    "name": "California Quail",     
+    "description": "Fat gray bird, that is a ground dweller",
+     "url": "./assets/images/california-quail.png"
+  },
+  {
+    "birdId": 3,
+    "name": "Annas Humming Bird",     
+    "description": "Bright green body with dark head",
+     "url": "./assets/images/annas-hummingbird.png"
+  }
+]
