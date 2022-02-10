@@ -1,13 +1,11 @@
-import  HomePage  from "./pages/Home/HomePage";
-import BirdListPage from "./pages/bird-list/BirdListPage"
-import  NavBar  from "./components/NavBar";
-import { Route, Switch, Redirect } from "react-router-dom";
-
-import './App.css';
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import  {HomePage, BirdListPage } from "./pages"; 
+import  {NavBar}  from "./components"; 
 
 export const App = () => {
   return (
-    <div>
+    <div>    
+     <BrowserRouter>
       <NavBar />
       <Switch>
         <Route exact path="/Home" component={HomePage} />
@@ -16,6 +14,7 @@ export const App = () => {
         </Route>
         <Route exact path="/BirdList" component={BirdListPage} />
       </Switch>
+      </BrowserRouter>
     </div>
   );
 };
